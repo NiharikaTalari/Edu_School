@@ -1,0 +1,121 @@
+import { School } from '@/types/school';
+
+export const extendedSchools: School[] = [
+  {
+    id: 4,
+    name: "Washington Elementary",
+    address: "321 Cedar Lane",
+    city: "Portland",
+    state: "OR",
+    contact: "(555) 456-7890",
+    email_id: "info@washington-elem.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652757796_2c07b7a4.webp",
+    type: "Elementary",
+    rating: 4.7,
+    students: 380
+  },
+  {
+    id: 5,
+    name: "Jefferson High School",
+    address: "654 Elm Street",
+    city: "Denver",
+    state: "CO",
+    contact: "(555) 567-8901",
+    email_id: "admissions@jefferson-high.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652771426_f1943f61.webp",
+    type: "High School",
+    rating: 4.5,
+    students: 950
+  },
+  {
+    id: 6,
+    name: "Oakwood Academy",
+    address: "987 Birch Avenue",
+    city: "Austin",
+    state: "TX",
+    contact: "(555) 678-9012",
+    email_id: "contact@oakwood-academy.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652783510_d78e435d.webp",
+    type: "Private Academy",
+    rating: 4.9,
+    students: 280
+  },
+  {
+    id: 7,
+    name: "Roosevelt Elementary",
+    address: "147 Willow Drive",
+    city: "Seattle",
+    state: "WA",
+    contact: "(555) 789-0123",
+    email_id: "info@roosevelt-elem.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652759738_de3accee.webp",
+    type: "Elementary",
+    rating: 4.6,
+    students: 420
+  },
+  {
+    id: 8,
+    name: "Central High School",
+    address: "258 Oak Boulevard",
+    city: "Phoenix",
+    state: "AZ",
+    contact: "(555) 890-1234",
+    email_id: "admissions@central-high.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652773821_a9c91ba3.webp",
+    type: "High School",
+    rating: 4.4,
+    students: 1100
+  },
+  {
+    id: 9,
+    name: "Harmony Academy",
+    address: "369 Maple Court",
+    city: "Nashville",
+    state: "TN",
+    contact: "(555) 901-2345",
+    email_id: "contact@harmony-academy.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652785316_bf209464.webp",
+    type: "Private Academy",
+    rating: 4.8,
+    students: 350
+  },
+  {
+    id: 10,
+    name: "Sunshine Elementary",
+    address: "741 Pine Street",
+    city: "Miami",
+    state: "FL",
+    contact: "(555) 012-3456",
+    email_id: "info@sunshine-elem.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652761552_cacf82f4.webp",
+    type: "Elementary",
+    rating: 4.7,
+    students: 390
+  },
+  {
+    id: 11,
+    name: "Valley High School",
+    address: "852 Spruce Road",
+    city: "Las Vegas",
+    state: "NV",
+    contact: "(555) 123-4567",
+    email_id: "admissions@valley-high.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652776341_b1ce0ee3.webp",
+    type: "High School",
+    rating: 4.3,
+    students: 1050
+  },
+  {
+    id: 12,
+    name: "Heritage Academy",
+    address: "963 Aspen Lane",
+    city: "Charleston",
+    state: "SC",
+    contact: "(555) 234-5678",
+    email_id: "contact@heritage-academy.edu",
+    image: "https://d64gsuwffb70l.cloudfront.net/68b464a0425cadda193ae2e7_1756652787505_1ce1061f.webp",
+    type: "Private Academy",
+    rating: 4.9,
+    students: 290
+  }
+];
